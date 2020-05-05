@@ -1,0 +1,20 @@
+{
+  "presets": [
+    "@babel/preset-react",
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "ie": "11",
+          "node": "current"
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    ["@babel/plugin-transform-classes", { "loose": true }],
+    "@babel/plugin-transform-runtime",
+    "@babel/plugin-proposal-export-default-from"
+  ]
+}

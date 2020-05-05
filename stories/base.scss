@@ -1,0 +1,43 @@
+/* reset css */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, input, a, textarea {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100px;
+  font-family: Arial, sans-serif;
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
+}
+
+@media only screen and (max-width: 767px) {
+  html {
+    //font-size: 24.15459vw;
+    // 暂时取消对UI自适应，而是统一成一种
+    font-size: 100px;
+  }
+}
+
+body {
+  font-size: .12rem;
+  min-width: 992px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}

@@ -1,0 +1,57 @@
+{
+  "name": "ab-better-move",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "start-storybook -p 8082",
+    "build": "build-storybook -o dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangKunUserGit/ab-better-move.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangKunUserGit/ab-better-move/issues"
+  },
+  "homepage": "https://github.com/zhangKunUserGit/ab-better-move#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/plugin-transform-classes": "^7.9.5",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "@storybook/addon-info": "^5.3.18",
+    "@storybook/addon-knobs": "^5.3.18",
+    "@storybook/react": "^5.3.18",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.7",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "6.11.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "node-sass": "^4.14.1",
+    "prettier": "2.0.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "rollup": "^2.7.6",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3"
+  },
+  "sideEffects": false,
+  "dependencies": {}
+}
